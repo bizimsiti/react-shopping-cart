@@ -14,11 +14,3 @@ Bu projede bir e-ticaret web sitesinin sunduğu en temel özelliklerden biri ola
 ### Proje Hakkında
 
 Bu projede ürünleri listelememiz için ihtiyacımız olan bütün data (products array'i) constant.js içinde bulunuyor. Uygulamada 3 tane component kullanıyoruz. Bunlardan ilki Navbar, diğer ikisi ise ürünleri listelerken kullanılan component'lerdir. ProductCard her bir ürün için gösterilecek kart yapısını temsil ediyor. ProductsGrid component'inde ise products array'inde map yaparak her bir ürüne karşılık gelecek ProductCard component'inin render edilmesi sağlanıyor.
-
-### Yapılacaklar
-
-Class component kullanılarak oluşturulan bu projeyi Hook'ları kullanarak tamamen functional component'lerden oluşacak hale getiriniz.
-
-### İpuçları
-
-Functional component'lerde state tutabilmek için useState hook'unu kullanınız.
